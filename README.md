@@ -1,26 +1,56 @@
 # Python Problem Solver
 
-A collection of Python problem-solving programs created to practice coding logic, data structures, algorithms, and core Python concepts.
+This repository contains small Python solutions for programming problems.
 
-Repository: [Sampath7890/Python_ProblemSolver](https://github.com/Sampath7890/Python_ProblemSolver.git)
+## Current Problem
 
-## About
+### Runner-Up Score
 
-This repository is focused on solving beginner-friendly Python programming challenges. Each file contains a standalone solution that can be run from the command line.
+`runnerUp_score.py` reads a list of scores and prints the runner-up score, which is the second-highest unique score in the list.
 
-The goal of this project is to improve:
+## How It Works
 
-- Python syntax and fundamentals
-- Problem-solving skills
-- Logical thinking
-- Use of lists, sets, loops, and conditions
-- Algorithm practice through small coding exercises
+1. Reads the number of scores.
+2. Reads the score values.
+3. Removes duplicate scores.
+4. Sorts the unique scores.
+5. Prints the second-highest score.
 
+## Requirements
 
-## Future Scope
+- Python 3.x
 
-More Python problem solutions can be added to this repository over time, with each problem saved in a separate file for easy practice and reference.
+No external packages are required.
 
-## Author
+## Usage
 
-Created by [Sampath7890](https://github.com/Sampath7890).
+Run the script from the terminal:
+
+```bash
+python runnerUp_score.py
+```
+
+Example input:
+
+```text
+5
+2 3 6 6 5
+```
+
+Example output:
+
+```text
+5
+```
+
+## File Structure
+
+```text
+Python_ProblemSolver/
+|-- README.md
+`-- runnerUp_score.py
+```
+
+## Notes
+
+The script assumes there are at least two unique scores in the input.
